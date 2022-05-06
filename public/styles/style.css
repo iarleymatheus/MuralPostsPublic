@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&display=swap');
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    border: none;
+    margin: 0;
+    pad: 0;
+    background-color: rgb(238, 237, 237);
+}
+.container{
+    
+    text-align: left;
+    margin: auto;
+    background-color: rgba(8, 71, 207, 0.726);
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+#desc{
+    border-radius: 10px;
+    height: 20px;
+    padding: 20px;
+    margin-top: 2%;
+    border: hidden;
+
+}
+#title{
+    border-radius: 10px;
+    height: 20px;
+    padding: 20px;
+    margin-top: 2%;
+    border: hidden;
+    width: 60px;
+}
+.enviar{
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border:hidden;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+    font-size: 20px;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 3rem;
+}
+#mural{
+    text-align: left;
+    margin: auto;
+    background-color: rgba(8, 71, 207, 0.726);
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#posts{
+    
+    text-align: left;
+    margin: auto;
+    background-color: rgba(8, 71, 207, 0.726);
+    width: 500px;
+    border-radius: 20px;
+    padding: 20px
+}
+.card{
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+#limpar{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(8, 71, 207, 0.726);
+    width: 200px;
+    border-radius: 20px;
+    padding: 20px;
+}
+#limpar:hover{
+    background-color: blue;
+}
+#divdel{
+    text-align: center;
+    margin-top: 5px;
+
+}

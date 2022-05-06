@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/style.css" rel="stylesheet" >
+    <title>Meu Mural</title>
+</head>
+<body>
+    <div class="container">
+      <h1>Novo post</h1>
+     <div class="btns">
+         <input id="title" class="btn" type="text" placeholder="Título">
+         <input id="desc" class="btn" type="text" placeholder="Descrição">
+         <button onclick="newPost()" class="enviar">Enviar</button>
+         
+     </div>
+    </div>
+    <h1 id="mural">Mural</h1>
+    <div id="posts">
+        
+        
+    </div>
+    <div  id="divdel">
+    <button id="limpar" onclick="postDelete()" class="enviar">Limpar</button>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
